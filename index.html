@@ -1,395 +1,370 @@
-<html>
+<!DOCTYPE hmtl>
+<html lang="en">
 <head>
-<title>index.html</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<style type="text/css">
-.s0 { color: #d5b778;}
-.s1 { color: #bcbec4;}
-.s2 { color: #f75464;}
-.s3 { color: #bababa;}
-.s4 { color: #6aab73;}
-.s5 { color: #56a8f5;}
-.s6 { color: #2aacb8;}
-.s7 { color: #7a7e85;}
-.s8 { color: #cf8e6d;}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corazoncitoo</title>
+  <style>
+    body{
+      background-color: #0b1522;
+    }
+     .container {
+       width: 500px;
+       height: 500px;
+       /*border: 3px solid blue;*/
+       right: -550px;
+       bottom: -30px;
+       position: relative;
+     }
+
+     .amor{
+       position: absolute;
+       right: 255px;
+       bottom: 110px;
+       color: red;
+       font-size: 30px;
+     }
+     p{
+       color: red;
+       box-shadow: -10px 15px 100px #f20044;
+     }
+     .primera{
+       position: absolute;
+       right: 250px;
+       bottom: 0;
+     }
+
+     .segunda{
+       position: absolute;
+       right: 235px;
+       bottom: 15px;
+     }
+     .tercera{
+       position: absolute;
+       right: 215px;
+       bottom: 25px;
+     }
+     .cuarta{
+       position: absolute;
+       right: 205px;
+       bottom: 35px;
+     }
+     .quinta{
+       position: absolute;
+       right: 190px;
+       bottom: 45px;
+     }
+     .sexta{
+       position: absolute;
+       right: 175px;
+       bottom: 60px;
+     }
+     .septima{
+       position: absolute;
+       right: 160px;
+       bottom: 75px;
+     }
+     .octava{
+       position: absolute;
+       right: 145px;
+       bottom: 90px;
+     }
+     .novena{
+       position: absolute;
+       right: 140px;
+       bottom: 105px;
+     }
+     .decima{
+       position: absolute;
+       right: 125px;
+       bottom: 120px;
+     }
+     .decima1{
+       position: absolute;
+       right: 110px;
+       bottom: 135px;
+     }
+     .decima2{
+       position: absolute;
+       right: 100px;
+       bottom: 150px;
+     }
+     .decima3{
+       position: absolute;
+       right: 100px;
+       bottom: 165px;
+     }
+     .decima4{
+       position: absolute;
+       right: 100px;
+       bottom: 165px;
+     }
+     .decima5{
+       position: absolute;
+       right: 100px;
+       bottom: 180px;
+     }
+     .decima6{
+       position: absolute;
+       right: 105px;
+       bottom: 195px;
+     }
+     .decima7{
+       position: absolute;
+       right: 110px;
+       bottom: 210px;
+     }
+     .decima8{
+       position: absolute;
+       right: 120px;
+       bottom: 225px;
+     }
+     .decima9{
+       position: absolute;
+       right: 130px;
+       bottom: 240px;
+     }
+     .vigesima{
+       position: absolute;
+       right: 140px;
+       bottom: 255px;
+     }
+     .vigesima1{
+       position: absolute;
+       right: 171px;
+       bottom: 275px;
+     }
+     .vigesima2{
+       position: absolute;
+       right: 205px;
+       bottom: 255px;
+     }
+     .vigesima3{
+       position: absolute;
+       right: 220px;
+       bottom: 240px;
+     }
+     .vigesima4{
+       position: absolute;
+       right: 230px;
+       bottom: 225px;
+     }
+     .vigesima5{
+       position: absolute;
+       right: 240px;
+       bottom: 210px;
+     }
+     .vigesima6{
+       position: absolute;
+       right: 250px;
+       bottom: 190px;
+     }
+
+     .primera-{
+       position: absolute;
+       right: 277px;
+       bottom: 15px;
+     }
+     .segunda-{
+       position: absolute;
+       right: 285px;
+       bottom: 30px;
+     }
+     .tercera-{
+       position: absolute;
+       right: 305px;
+       bottom: 40px;
+     }
+     .cuarta-{
+       position: absolute;
+       right: 315px;
+       bottom: 55px;
+     }
+     .quinta-{
+       position: absolute;
+       right: 345px;
+       bottom: 70px;
+     }
+     .sexta-{
+       position: absolute;
+       right: 355px;
+       bottom: 85px;
+     }
+     .septima-{
+       position: absolute;
+       right: 360px;
+       bottom: 100px;
+     }
+     .octava-{
+       position: absolute;
+       right: 375px;
+       bottom: 115px;
+     }
+     .novena-{
+       position: absolute;
+       right: 388px;
+       bottom: 128px;
+     }
+     .decima-{
+       position: absolute;
+       right: 395px;
+       bottom: 140px;
+     }
+     .decima-1{
+       position: absolute;
+       right: 405px;
+       bottom: 155px;
+     }
+     .decima-2{
+       position: absolute;
+       right: 419px;
+       bottom: 167px;
+     }
+     .decima-3{
+       position: absolute;
+       right: 100px;
+       bottom: 165px;
+     }
+     .decima-4{
+       position: absolute;
+       right: 427px;
+       bottom: 178px;
+     }
+     .decima-5{
+       position: absolute;
+       right: 430px;
+       bottom: 190px;
+     }
+     .decima-6{
+       position: absolute;
+       right: 435px;
+       bottom: 205px;
+     }
+     .decima-7{
+       position: absolute;
+       right: 427px;
+       bottom: 220px;
+     }
+     .decima-8{
+       position: absolute;
+       right: 413px;
+       bottom: 235px;
+     }
+     .decima-9{
+       position: absolute;
+       right: 405px;
+       bottom: 248px;
+     }
+     .vigesima-{
+       position: absolute;
+       right: 390px;
+       bottom: 265px;
+     }
+     .vigesima-1{
+       position: absolute;
+       right: 370px;
+       bottom: 279px;
+     }
+     .vigesima-2{
+       position: absolute;
+       right: 340px;
+       bottom: 265px;
+     }
+     .vigesima-3{
+       position: absolute;
+       right: 320px;
+       bottom: 250px;
+     }
+     .vigesima-4{
+       position: absolute;
+       right: 310px;
+       bottom: 235px;
+     }
+     .vigesima-5{
+       position: absolute;
+       right: 300px;
+       bottom: 215px;
+     }
+     .vigesima-6{
+       position: absolute;
+       right: 285px;
+       bottom: 200px;
+     }
+     .vigesima-7{
+       position: absolute;
+       right: 262px;
+       bottom: 175px;
+     }
+     p{
+       animation: latiendo 0.6s linear infinite;
+     }
+     @keyframes latiendo{
+       0%{transform: scale(1.4);}
+       80%{transform: scale(2.0)}
+     }
+  </style>
 </head>
-<body bgcolor="#191a1c">
-<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
-<tr><td><center>
-<font face="Arial, Helvetica" color="#000000">
-index.html</font>
-</center></td></tr></table>
-<pre><span class="s0">&lt;!DOCTYPE </span><span class="s2">hmtl</span><span class="s0">&gt;</span>
-<span class="s0">&lt;html </span><span class="s3">lang</span><span class="s4">=&quot;en&quot;</span><span class="s0">&gt;</span>
-<span class="s0">&lt;head&gt;</span>
-  <span class="s0">&lt;meta </span><span class="s3">charset</span><span class="s4">=&quot;UTF-8&quot;</span><span class="s0">&gt;</span>
-  <span class="s0">&lt;meta </span><span class="s3">http-equiv</span><span class="s4">=&quot;X-UA-Compatible&quot; </span><span class="s3">content</span><span class="s4">=&quot;IE=edge&quot;</span><span class="s0">&gt;</span>
-  <span class="s0">&lt;meta </span><span class="s3">name</span><span class="s4">=&quot;viewport&quot; </span><span class="s3">content</span><span class="s4">=&quot;width=device-width, initial-scale=1.0&quot;</span><span class="s0">&gt;</span>
-  <span class="s0">&lt;title&gt;</span><span class="s1">Corazoncitoo</span><span class="s0">&lt;/title&gt;</span>
-  <span class="s0">&lt;style&gt;</span>
-    <span class="s0">body</span><span class="s1">{</span>
-      <span class="s3">background-color</span><span class="s1">: </span><span class="s5">#0b1522</span><span class="s1">;</span>
-    <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">container </span><span class="s1">{</span>
-       <span class="s3">width</span><span class="s1">: </span><span class="s6">500</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">height</span><span class="s1">: </span><span class="s6">500</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s7">/*border: 3px solid blue;*/</span>
-       <span class="s3">right</span><span class="s1">: -</span><span class="s6">550</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: -</span><span class="s6">30</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">relative</span><span class="s1">;</span>
-     <span class="s1">}</span>
+<body>
+  <div class="container">
 
-     <span class="s1">.</span><span class="s0">amor</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">255</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">110</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">color</span><span class="s1">: </span><span class="s4">red</span><span class="s1">;</span>
-       <span class="s3">font-size</span><span class="s1">: </span><span class="s6">30</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s0">p</span><span class="s1">{</span>
-       <span class="s3">color</span><span class="s1">: </span><span class="s4">red</span><span class="s1">;</span>
-       <span class="s3">box-shadow</span><span class="s1">: -</span><span class="s6">10</span><span class="s4">px </span><span class="s6">15</span><span class="s4">px </span><span class="s6">100</span><span class="s4">px </span><span class="s5">#f20044</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">primera</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">250</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">0</span><span class="s1">;</span>
-     <span class="s1">}</span>
+    <p class="amor">Sandy</p>
 
-     <span class="s1">.</span><span class="s0">segunda</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">235</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">15</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">tercera</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">215</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">25</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">cuarta</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">205</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">35</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">quinta</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">190</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">45</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">sexta</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">175</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">60</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">septima</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">160</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">75</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">octava</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">145</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">90</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">novena</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">140</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">105</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">125</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">120</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima1</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">110</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">135</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima2</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">100</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">150</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima3</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">100</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">165</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima4</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">100</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">165</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima5</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">100</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">180</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima6</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">105</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">195</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima7</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">110</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">210</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima8</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">120</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">225</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima9</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">130</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">240</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">140</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">255</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima1</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">171</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">275</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima2</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">205</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">255</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima3</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">220</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">240</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima4</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">230</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">225</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima5</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">240</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">210</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima6</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">250</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">190</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
+    <p class="primera">Sandy</p>
+    <p class="segunda">Sandy</p>
+    <p class="tercera">Sandy</p>
+    <p class="cuarta">Sandy</p>
+    <p class="quinta">Sandy</p>
+    <p class="sexta">Sandy</p>
+    <p class="septima">Sandy</p>
+    <p class="octava">Sandy</p>
+    <p class="novena">Sandy</p>
+    <p class="decima">Sandy</p>
+    <p class="decima1">Sandy</p>
+    <p class="decima2">Sandy</p>
+    <p class="decima3">Sandy</p>
+    <p class="decima4">Sandy</p>
+    <p class="decima5">Sandy</p>
+    <p class="decima6">Sandy</p>
+    <p class="decima7">Sandy</p>
+    <p class="decima8">Sandy</p>
+    <p class="decima9">Sandy</p>
+    <p class="vigesima">Sandy</p>
+    <p class="vigesima1">Sandy</p>
+    <p class="vigesima2">Sandy</p>
+    <p class="vigesima3">Sandy</p>
+    <p class="vigesima4">Sandy</p>
+    <p class="vigesima5">Sandy</p>
+    <p class="vigesima6">Sandy</p>
 
-     <span class="s1">.</span><span class="s0">primera-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">277</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">15</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">segunda-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">285</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">30</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">tercera-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">305</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">40</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">cuarta-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">315</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">55</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">quinta-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">345</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">70</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">sexta-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">355</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">85</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">septima-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">360</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">100</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">octava-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">375</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">115</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">novena-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">388</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">128</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">395</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">140</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-1</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">405</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">155</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-2</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">419</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">167</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-3</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">100</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">165</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-4</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">427</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">178</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-5</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">430</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">190</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-6</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">435</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">205</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-7</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">427</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">220</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-8</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">413</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">235</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">decima-9</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">405</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">248</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">390</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">265</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-1</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">370</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">279</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-2</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">340</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">265</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-3</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">320</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">250</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-4</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">310</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">235</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-5</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">300</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">215</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-6</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">285</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">200</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s1">.</span><span class="s0">vigesima-7</span><span class="s1">{</span>
-       <span class="s3">position</span><span class="s1">: </span><span class="s4">absolute</span><span class="s1">;</span>
-       <span class="s3">right</span><span class="s1">: </span><span class="s6">262</span><span class="s4">px</span><span class="s1">;</span>
-       <span class="s3">bottom</span><span class="s1">: </span><span class="s6">175</span><span class="s4">px</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s0">p</span><span class="s1">{</span>
-       <span class="s3">animation</span><span class="s1">: </span><span class="s4">latiendo </span><span class="s6">0.6</span><span class="s4">s linear infinite</span><span class="s1">;</span>
-     <span class="s1">}</span>
-     <span class="s8">@keyframes </span><span class="s0">latiendo</span><span class="s1">{</span>
-       <span class="s0">0%</span><span class="s1">{</span><span class="s3">transform</span><span class="s1">: </span><span class="s0">scale</span><span class="s1">(</span><span class="s6">1.4</span><span class="s1">);}</span>
-       <span class="s0">80%</span><span class="s1">{</span><span class="s3">transform</span><span class="s1">: </span><span class="s0">scale</span><span class="s1">(</span><span class="s6">2.0</span><span class="s1">)}</span>
-     <span class="s1">}</span>
-  <span class="s0">&lt;/style&gt;</span>
-<span class="s0">&lt;/head&gt;</span>
-<span class="s0">&lt;body&gt;</span>
-  <span class="s0">&lt;div </span><span class="s3">class</span><span class="s4">=&quot;container&quot;</span><span class="s0">&gt;</span>
+    <p class="primera-">Sandy</p>
+    <p class="segunda-">Sandy</p>
+    <p class="tercera-">Sandy</p>
+    <p class="cuarta-">Sandy</p>
+    <p class="quinta-">Sandy</p>
+    <p class="sexta-">Sandy</p>
+    <p class="septima-">Sandy</p>
+    <p class="octava-">Sandy</p>
+    <p class="novena-">Sandy</p>
+    <p class="decima-">Sandy</p>
+    <p class="decima-1">Sandy</p>
+    <p class="decima-2">Sandy</p>
+    <p class="decima-3">Sandy</p>
+    <p class="decima-4">Sandy</p>
+    <p class="decima-5">Sandy</p>
+    <p class="decima-6">Sandy</p>
+    <p class="decima-7">Sandy</p>
+    <p class="decima-8">Sandy</p>
+    <p class="decima-9">Sandy</p>
+    <p class="vigesima-">Sandy</p>
+    <p class="vigesima-1">Sandy</p>
+    <p class="vigesima-2">Sandy</p>
+    <p class="vigesima-3">Sandy</p>
+    <p class="vigesima-4">Sandy</p>
+    <p class="vigesima-5">Sandy</p>
+    <p class="vigesima-6">Sandy</p>
+    <p class="vigesima-7">Sandy</p>
 
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;amor&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;primera&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;segunda&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;tercera&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;cuarta&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;quinta&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;sexta&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;septima&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;octava&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;novena&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima1&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima2&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima3&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima4&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima5&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima6&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima7&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima8&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima9&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima1&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima2&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima3&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima4&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima5&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima6&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;primera-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;segunda-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;tercera-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;cuarta-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;quinta-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;sexta-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;septima-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;octava-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;novena-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-1&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-2&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-3&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-4&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-5&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-6&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-7&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-8&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;decima-9&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-1&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-2&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-3&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-4&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-5&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-6&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-    <span class="s0">&lt;p </span><span class="s3">class</span><span class="s4">=&quot;vigesima-7&quot;</span><span class="s0">&gt;</span><span class="s1">Sandy</span><span class="s0">&lt;/p&gt;</span>
-
-  <span class="s0">&lt;/div&gt;</span>
-<span class="s0">&lt;/body&gt;</span>
-<span class="s0">&lt;/html&gt;</span>
-</pre>
+  </div>
 </body>
 </html>
